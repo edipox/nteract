@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8@sha256:23f55ec43b896824088c2dcd6b0f88b7c34c6f7e5fa761d98244a5ef434f93e1
+      - image: circleci/node:8@sha256:ee5f44c857a42e8643b7bbdb2b1b76ad715e702626bb6423ff6ab7144e518c84
 
     working_directory: ~/nteract
 
